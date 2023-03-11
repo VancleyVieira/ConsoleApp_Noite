@@ -26,5 +26,55 @@ namespace ConsoleApp_Noite
 
         }
 
+        public string getRua() 
+        {
+            return this.Rua;
+        }
+        public string getNumero() 
+        {
+            return this.Numero;
+        }
+        public string getBairro() 
+        {
+            return this.Bairro;
+        }
+        public string getCep() 
+        {
+            return this.Cidade;
+        }
+        public string getCidade() 
+        {
+            return this.Cidade;
+        }
+        public string getEstado()
+        { 
+            return this.Estado; 
+        }
+
+        public void setRua(string Rua)
+        {
+            this.Rua = Rua;        
+        }
+        public void setNumero(string Numero)
+        {
+            this.Numero = Numero;
+        }
+        public void setBairro(string Bairro)
+        {
+            this.Bairro = Bairro;
+        }
+        public void setCep(string Cep)
+        {
+            this.Cep = Cep;
+        }
+        public void setCidade(string Cidade)
+        {
+            this.Cidade = Cidade;
+        }
+        public void setEstado(string Estado)
+        {
+            this.Estado = Estado;
+        }
+
     }
 }

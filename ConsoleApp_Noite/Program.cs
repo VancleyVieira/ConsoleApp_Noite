@@ -13,5 +13,3 @@ p1.setDescricao("Cerveja Skol 1 litrão");
 
 Console.WriteLine(p1.getDescricao() + " " + p1.getValor());
 
-Cliente c1 = new Cliente("Vancley");
-
