@@ -23,15 +23,18 @@ namespace ConsoleApp_Noite
         {
             return Descricao;
         }
+        public int getId()
+        {
+            return Id;
+        }
+        public decimal getValor()
+        {
+            return Valor;
+        }
 
         public void setDescricao(string descricao)
         {
             Descricao = descricao;
-        }
-
-        public int getId()
-        {
-            return Id;
         }
         public void setId(int id)
         {
@@ -41,9 +44,6 @@ namespace ConsoleApp_Noite
         {
             Valor = valor;
         }
-        public decimal getValor()
-        {
-            return Valor;
-        }
+        
     }
 }
