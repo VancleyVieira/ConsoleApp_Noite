@@ -8,11 +8,18 @@ namespace ConsoleApp_Noite
 {
     public class Cliente
     {
-        private string nome;
+        private string Nome;
+        private int Id;
+        private string Telefone;
 
-        public Cliente(string nome) {
-            this.nome = nome;
+
+        public Cliente(string Nome, int Id, string Telefone) {
+            this.Nome = Nome;
+            this.Id = Id;
+            this.Telefone = Telefone;  
         }
+
+
 
     }
 }
